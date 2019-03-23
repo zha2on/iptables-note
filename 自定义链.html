@@ -1,0 +1,421 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第六章: 自定义链 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="网络防火墙.html" />
+    
+    
+    <link rel="prev" href="黑白名单.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="概念.html">
+            
+                <a href="概念.html">
+            
+                    
+                    第一章: 概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="基础.html">
+            
+                <a href="基础.html">
+            
+                    
+                    第二章: 基础操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="条件.html">
+            
+                <a href="条件.html">
+            
+                    
+                    第三章: 匹配条件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="模块.html">
+            
+                <a href="模块.html">
+            
+                    
+                    第四章: 常用模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="黑白名单.html">
+            
+                <a href="黑白名单.html">
+            
+                    
+                    第五章: 黑白名单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="自定义链.html">
+            
+                <a href="自定义链.html">
+            
+                    
+                    第六章: 自定义链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="网络防火墙.html">
+            
+                <a href="网络防火墙.html">
+            
+                    
+                    第七章: 网络防火墙
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="动作.html">
+            
+                <a href="动作.html">
+            
+                    
+                    第八章: 常见动作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="nat.html">
+            
+                <a href="nat.html">
+            
+                    
+                    第九章: NAT技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="总结.html">
+            
+                <a href="总结.html">
+            
+                    
+                    第十章: 总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="附录.html">
+            
+                <a href="附录.html">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第六章: 自定义链</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x81EA;&#x5B9A;&#x4E49;&#x94FE;">&#x81EA;&#x5B9A;&#x4E49;&#x94FE;</h2>
+<blockquote>
+<p>&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x6709;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;? 
+&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x7BA1;&#x7406;, &#x6BD4;&#x5982;&#x5982;&#x679C;&#x94FE;&#x4E2D;&#x6709;&#x4E0A;&#x767E;&#x6761;&#x6570;&#x636E;. &#x5173;&#x4E8E;web&#x670D;&#x52A1;&#x7684;&#x6709;&#x51E0;&#x6761;. &#x90A3;&#x4E48;&#x4FEE;&#x6539;&#x8D77;&#x6765;&#x5C31;&#x4E0D;&#x662F;&#x592A;&#x65B9;&#x4FBF;. &#x8FD9;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x628A;web&#x670D;&#x52A1;&#x76F8;&#x5173;&#x7684;&#x653E;&#x5230;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x4E2D;. &#x4E4B;&#x540E;&#x7684;&#x64CD;&#x4F5C;&#x5C31;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x64CD;&#x4F5C;&#x5C31;&#x65B9;&#x4FBF;&#x591A;&#x4E86;.</p>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x53EF;&#x4EE5;&#x88AB;&#x591A;&#x6B21;&#x5F15;&#x7528;&#x5230;&#x5177;&#x4F53;&#x7684;&#x94FE;&#x4E2D;, &#x5982;&#x679C;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x6CA1;&#x6709;&#x88AB;&#x5F15;&#x7528;&#x5219;&#x65E0;&#x4EFB;&#x4F55;&#x6548;&#x679C;. </p>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x7684;&#x904D;&#x5386;&#x662F;&#x4ECE;&#x5339;&#x914D;&#x5230;&#x89C4;&#x5219;, &#x8FDB;&#x5165;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;, &#x4F9D;&#x6B21;&#x904D;&#x5386;, &#x5982;&#x679C;&#x6CA1;&#x6709;&#x5339;&#x914D;,&#x5219;&#x8DF3;&#x56DE;&#x5230;&#x5F15;&#x7528;&#x7684;&#x94FE;&#x5411;&#x4E0B;&#x4F9D;&#x6B21;&#x5339;&#x914D;.</p>
+</blockquote>
+<h3 id="&#x672C;&#x9875;&#x5927;&#x7EB2;">&#x672C;&#x9875;&#x5927;&#x7EB2;</h3>
+<ul>
+<li><a href="#&#x589E;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;">&#x589E;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;</a></li>
+<li><a href="#&#x589E;&#x52A0;&#x5F15;&#x7528;">&#x589E;&#x52A0;&#x5F15;&#x7528;</a></li>
+<li><a href="#&#x91CD;&#x547D;&#x540D;">&#x91CD;&#x547D;&#x540D;</a></li>
+<li><a href="#&#x6DFB;&#x52A0;&#x89C4;&#x5219;">&#x6DFB;&#x52A0;&#x89C4;&#x5219;</a></li>
+<li><a href="#&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x5220;&#x9664;">&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x5220;&#x9664;</a></li>
+<li><a href="#&#x94FE;&#x7684;&#x591A;&#x6B21;&#x5F15;&#x7528;">&#x94FE;&#x7684;&#x591A;&#x6B21;&#x5F15;&#x7528;</a></li>
+</ul>
+<h3 id="&#x589E;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;">&#x589E;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;</h3>
+<ul>
+<li><code>-N</code> : new, &#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;</li>
+</ul>
+<pre><code>iptabes -N custom_input
+</code></pre><h3 id="&#x589E;&#x52A0;&#x5F15;&#x7528;">&#x589E;&#x52A0;&#x5F15;&#x7528;</h3>
+<p>&#x5728;INPUT&#x94FE;&#x4E2D;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x89C4;&#x5219;, &#x5339;&#x914D;&#x6240;&#x6709;&#x7684;&#x534F;&#x8BAE;, &#x52A8;&#x4F5C;&#x662F;&#x8DF3;&#x5230;custom_input&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x4E2D;.</p>
+<pre><code>iptables -t filter -I INPUT -p all -j custom_input
+</code></pre><h3 id="&#x91CD;&#x547D;&#x540D;">&#x91CD;&#x547D;&#x540D;</h3>
+<ul>
+<li><code>-E</code> : rename, &#x91CD;&#x547D;&#x540D;&#x94FE;&#x540D;</li>
+</ul>
+<p>&#x91CD;&#x547D;&#x540D;<code>custom_input</code>&#x94FE;&#x4E3A;<code>input_all</code>&#x540D;&#x79F0;</p>
+<pre><code>iptables -E custom_input input_all
+</code></pre><h3 id="&#x6DFB;&#x52A0;&#x89C4;&#x5219;">&#x6DFB;&#x52A0;&#x89C4;&#x5219;</h3>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x4E2D;&#x7684;&#x89C4;&#x5219;&#x548C;&#x5176;&#x4ED6;&#x51E0;&#x4E2A;&#x9ED8;&#x8BA4;&#x7684;&#x94FE;&#x7684;&#x89C4;&#x5219;&#x65B9;&#x6CD5;&#x662F;&#x4E00;&#x6837;&#x7684;.&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x7684;&#x529F;&#x80FD;&#x53EA;&#x662F;&#x65B9;&#x4FBF;&#x7BA1;&#x7406;. &#x5E76;&#x6CA1;&#x6709;&#x6539;&#x53D8;&#x89C4;&#x5219;&#x672C;&#x8EAB;.</p>
+<p>&#x6BD4;&#x5982;: &#x5728;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;custom_input&#x94FE;&#x4E2D;&#x589E;&#x52A0;&#x4E00;&#x6761;&#x89C4;&#x5219;, &#x63A5;&#x6536;&#x8BBF;&#x95EE;&#x672C;&#x673A;&#x7684;80&#x7AEF;&#x53E3;&#x7684;tcp&#x62A5;&#x6587;.</p>
+<pre><code>iptables -t filter -I custom_input -p tcp --dport 80 -j ACCEPT
+</code></pre><h3 id="&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x5220;&#x9664;">&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x5220;&#x9664;</h3>
+<p><code>-X</code> : &#x5220;&#x9664;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;</p>
+<p><strong>&#x5220;&#x9664;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x5FC5;&#x987B;&#x6EE1;&#x8DB3;&#x4E24;&#x4E2A;&#x6761;&#x4EF6;, &#x4E00;, &#x94FE;&#x6CA1;&#x6709;&#x88AB;&#x5F15;&#x7528;; &#x4E8C;, &#x94FE;&#x4E2D;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x89C4;&#x5219;</strong></p>
+<p>&#x6BD4;&#x5982;: &#x5220;&#x9664;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;custom_input</p>
+<pre><code>iptables -X custom_input
+</code></pre><p>&#x5982;&#x679C;&#x94FE;&#x6709;&#x5F15;&#x7528;, &#x67E5;&#x770B;&#x5F15;&#x7528;&#x4F4D;&#x7F6E;, <code>-D</code>&#x53C2;&#x6570;&#x5220;&#x9664;&#x89C4;&#x5219;. </p>
+<p>&#x4F7F;&#x7528;<code>-F</code>&#x53C2;&#x6570;&#x5220;&#x9664;&#x94FE;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x89C4;&#x5219;.</p>
+<h3 id="&#x94FE;&#x7684;&#x591A;&#x6B21;&#x5F15;&#x7528;">&#x94FE;&#x7684;&#x591A;&#x6B21;&#x5F15;&#x7528;</h3>
+<p>&#x6BD4;&#x5982;&#x8BF4;&#x5B9E;&#x73B0;&#x7684;&quot;&#x767D;&#x540D;&#x5355;&#x673A;&#x5236;&quot;, &#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;reject&#x81EA;&#x5B9A;&#x4E49;&#x94FE;. </p>
+<pre><code>iptables -N reject
+iptables -t filter -I reject -p tcp -j REJECT
+iptables -t filter -I reject -p all -j REJECT
+iptables -t filter -A INPUT -p all -j reject
+iptables -t filter -A FORWARD -p all -j reject
+</code></pre><p>&#x8FD9;&#x6837;&#x5728;INPUT&#x548C;FORWARD&#x90FD;&#x5F15;&#x7528;&#x4E86;reject&#x94FE;, &#x65B9;&#x4FBF;&#x7BA1;&#x7406;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="黑白名单.html" class="navigation navigation-prev " aria-label="Previous page: 第五章: 黑白名单">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="网络防火墙.html" class="navigation navigation-next " aria-label="Next page: 第七章: 网络防火墙">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第六章: 自定义链","level":"1.7","depth":1,"next":{"title":"第七章: 网络防火墙","level":"1.8","depth":1,"path":"网络防火墙.md","ref":"网络防火墙.md","articles":[]},"previous":{"title":"第五章: 黑白名单","level":"1.6","depth":1,"path":"黑白名单.md","ref":"黑白名单.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"自定义链.md","mtime":"2019-03-23T07:37:34.538Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-23T07:55:42.562Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
